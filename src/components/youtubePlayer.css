@@ -62,3 +62,27 @@
     color: rgb(146, 145, 145);
     font-size: 17px;
 }
+
+
+
+
+/* Small phones */
+@media (max-width: 480px) {
+
+    #frame-placeHolder {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    left: -6%;
+    height: 460px;
+    width: 95vw;
+    background-color: rgb(49, 49, 49);
+    border-radius: 12px;
+    color: rgb(146, 145, 145);
+    font-size: 17px;
+}
+    
+}

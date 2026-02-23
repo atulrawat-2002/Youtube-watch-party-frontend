@@ -56,3 +56,32 @@ header h3 {
     border-radius: 20px;
     font-size: 14px;
 }
+
+/* Small phones */
+@media (max-width: 480px) {
+    *{
+        /* border: 1px solid white; */
+        margin: 0;
+        padding: 0;
+    }
+
+    .landing-page-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 120vw;
+        height: 100vh;
+        /* border: 3px solid lime; */
+        align-items: center;
+    }
+
+    .landing-page-container header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    #input-container {
+        margin-right: 200px;
+    }
+}

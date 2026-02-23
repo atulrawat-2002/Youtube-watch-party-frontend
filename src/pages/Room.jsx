@@ -71,11 +71,11 @@ function Room() {
 
   return (
     <>
-      <div>
+      <div  className="room-parent-container" >
         <header>
           <h2 id="roomID" > RoomId : <span  > {roomId?.roomId} </span> </h2>
           {controls && (
-            <div className="host-actions">
+            <div  className="host-actions">
               <input
                 value={videoURL}
                 onChange={(e) => setVideoURL(e.target.value)}
