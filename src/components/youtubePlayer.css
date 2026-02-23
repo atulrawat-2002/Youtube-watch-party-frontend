@@ -1,0 +1,64 @@
+.player-actions {
+    display: flex;
+    column-gap: 5px;
+
+}
+
+.player-actions button {
+    padding: 8px;
+}
+
+.frame-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#host-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(63, 62, 62);
+}
+
+#host-controls button{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin: 0 5px 0 5px;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px 20px 8px 20px;
+}
+#host-controls button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 0 5px 0 5px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    padding: 8px 20px 8px 20px;
+}
+
+
+#host-controls input{
+    width: 17%;
+    background-color: black;
+    color: black;
+}
+
+#frame-placeHolder {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 10px;
+    left: 27px;
+    height: 460px;
+    width: 95vw;
+    background-color: rgb(49, 49, 49);
+    border-radius: 12px;
+    color: rgb(146, 145, 145);
+    font-size: 17px;
+}

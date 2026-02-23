@@ -1,0 +1,109 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    width: 100%;
+    gap: 1px;
+    padding: 0 10px;
+}
+
+.room-actions button {
+    padding: 10px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 
+        background-color 0.3s ease,
+        color 0.3s ease,
+        border 0.3s ease,
+        border-radius 0.3s ease,
+}
+
+.room-actions button:hover {
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    transform: scale(1.05);
+    border: 1px solid black;
+}
+
+.host-actions {
+    display: flex;
+    gap: 4px;
+    justify-content: end;
+}
+
+.host-actions #second {
+    width: 50%;
+}
+
+.host-actions button {
+    padding: 10px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    transition: 
+        background-color 0.3s ease,
+        color 0.3s ease,
+        border 0.3s ease,
+        border-radius 0.3s ease,
+}
+
+.host-actions button:hover {
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    transform: scale(1.05);
+    border: 1px solid black;
+}
+
+.host-actions input {
+    width: 400px;
+    font-size: 14px;
+    background-color: rgb(46, 46, 46);
+    border-radius: 50px;
+    border: 1px solid whitesmoke;
+    color: white;
+    padding: 0 10px;
+}
+
+.participants {
+    margin-top: 20px;
+    padding: 5px;
+    margin-bottom: 200px;
+}
+
+.participant {
+  background: rgb(58, 58, 58);
+  padding: 8px 20px 8px 20px;
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(236, 236, 236);
+  font-size: 19px;
+}
+
+.participant button{
+    padding: 8px 10px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-weight: 700;
+    margin: 0 1px;
+    width: 150px;
+}
+.participant button:hover {
+    padding: 8px 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    font-weight: 700;
+    margin: 0 1px;
+}

@@ -1,0 +1,58 @@
+.landing-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing-page-container header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header h3 {
+    color:rgb(184, 183, 183);
+}
+
+#input-container {
+    margin-left: 200px;
+}
+
+.input-container {
+    margin-left: 100px;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px;
+    font-size: 25px;
+}
+
+
+.input-container input {
+    background-color: rgb(43, 42, 42);
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.input-container button {
+    margin: 10px;
+    background-color: rgb(54, 54, 54);
+    padding: 10px;
+    color: whitesmoke;
+    transition: .3s ease;
+    border-radius: 20px;
+}
+.input-container button:hover {
+    margin: 10px;
+    background-color: rgb(149, 150, 120);
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-size: 14px;
+}
