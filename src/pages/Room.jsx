@@ -55,7 +55,6 @@ function Room() {
   };
 
   const handleParticipantsUpdate = (participantsArray) => {
-    console.log(participantsArray);
     setParticipants(participantsArray); // or set in Zustand
   };
 

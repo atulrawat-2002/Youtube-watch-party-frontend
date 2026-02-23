@@ -30,11 +30,9 @@ export default function YouTubePlayer({ videoId, controls }) {
   }
 
   if (socket) {
-    console.log("getRole called", roomId)
     socket.emit("getRole", roomId)
     socket.on("getRole", (role) => {
       setUserRole(role)
-      console.log("role from the server ",role)
     })
 
     socket.on("pause", ({ time }) => {
@@ -71,7 +69,6 @@ export default function YouTubePlayer({ videoId, controls }) {
 
   useEffect(() => {
 
-    console.log("YouTube player rendered")
 
     // if(!playerRef.current) return;
     // if(!socket) return;

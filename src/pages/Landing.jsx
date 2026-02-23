@@ -13,7 +13,6 @@ function Landing() {
 
   async function handleRoomCreation() {
     if (!name) {
-        console.log('Please provide a username');
         return;
     }
     const response = await axiosClient.post("/api/rooms/create", {
@@ -28,7 +27,7 @@ function Landing() {
   async function handleRoomJoin(roomId, role) {
     
     if (!roomId || !name) {
-        console.log("Please provide details")
+        alert("Please provide details")
         return;
     }
     const response = io(import.meta.env.VITE_BACKEND_URL, {

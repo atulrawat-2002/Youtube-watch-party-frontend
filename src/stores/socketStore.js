@@ -39,7 +39,6 @@ export const useSocketStore = create(devtools( (set) => {
             })
 
             incomingSocket.on("participants-updated", (participantsArray) => {
-                console.log(participantsArray)
                 set(state => ({
                     ...state,
                     participants: participantsArray,
@@ -47,7 +46,6 @@ export const useSocketStore = create(devtools( (set) => {
             })
 
             incomingSocket.on("error", ({message}) => {
-                console.log(message)
                 return;
 
             })
